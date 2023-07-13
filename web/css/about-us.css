@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Jul 2023, 10:15:44 PM
+    Author     : nebia
+*/
+
+.about-us {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-us .image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-us .image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.about-us .text {
+  flex: 2;
+}
+
+.about-us .text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us .text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-us .text .learn-more {
+  margin-top: 20px;
+}
+
+.about-us .text .learn-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+
