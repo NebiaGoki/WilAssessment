@@ -5,12 +5,71 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+  <link rel="stylesheet" type="text/css" href="css/about-us.css">
+  <link rel="stylesheet" type="text/css" href="css/connect.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+  <div class="navbar">
+    <a class="active title" href="#">Career Connect</a>
+    <a href="#">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="connect.html">Connect</a>
+  </div>
+
+  <div class="slider-container">
+    <div class="slider">
+      <img class="slide" src="images/image1.jpeg" alt="Image 1">
+      <img class="slide" src="images/image2.jpeg" alt="Image 2">
+      <img class="slide" src="images/image3.jpeg" alt="Image 3">
+    </div>
+  </div>
+
+  <div class="about-us">
+    <div class="image">
+      <img src="images/about.png" alt="About Us Image">
+    </div>
+    <div class="text">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend massa nec libero ultricies, ac fringilla dui porta. 
+          Sed commodo vestibulum neque eget bibendum. Suspendisse eget nisl in neque hendrerit efficitur. Proin aliquam augue sed nisl dignissim congue. 
+          Nulla eget ante id libero convallis aliquam.</p>
+      <div class="learn-more">
+        <a href="about.html">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="connect">
+    <h2>Connect</h2>
+    <p>Join our platform and connect with mentors or fellow students for guidance and support.</p>
+    <div class="buttons">
+      <div class="button">
+        <img src="images/student_login.png" alt="Student Register">
+        <a href="#">Student Registration</a>
+      </div>
+      <div class="button">
+        <img src="images/student_login.png" alt="Student Login">
+        <a href="#">Student Login</a>
+      </div>
+      <div class="button">
+        <img src="mentor_register.jpg" alt="Mentor Register">
+        <a href="#">Mentor Registration</a>
+      </div>
+      <div class="button">
+        <img src="mentor_login.jpg" alt="Mentor Login">
+        <a href="#">Mentor Login</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Career Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="javascript/slider.js"></script>
+</body>
 </html>

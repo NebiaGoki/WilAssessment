@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+  <title>Mentor Search</title>
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/mentorsearch.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Connect</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <header>
+    <h1>Mentor Search</h1>
+  </header>
+
+  <main>
+    <form>
+      <div class="form-group">
+        <label for="industry">Industry</label>
+        <select id="industry" name="industry">
+          <option value="">Select Industry</option>
+          <option value="technology">Technology</option>
+          <option value="finance">Finance</option>
+          <option value="marketing">Marketing</option>
+          <option value="healthcare">Healthcare</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="job-role">Job Role</label>
+        <input type="text" id="job-role" name="job-role" placeholder="Enter Job Role">
+      </div>
+      <div class="form-group">
+        <label for="expertise">Expertise</label>
+        <input type="text" id="expertise" name="expertise" placeholder="Enter Expertise">
+      </div>
+      <div class="form-group">
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
+    <section class="mentor-list">
+      <h2>Matching Mentors</h2>
+      <ul>
+        <li>
+          <h3>John Doe</h3>
+          <p>Industry: Technology</p>
+          <p>Job Role: Software Engineer</p>
+          <p>Expertise: Web Development</p>
+        </li>
+        <li>
+          <h3>Jane Smith</h3>
+          <p>Industry: Finance</p>
+          <p>Job Role: Financial Analyst</p>
+          <p>Expertise: Investment Banking</p>
+        </li>
+        <li>
+          <h3>Michael Johnson</h3>
+          <p>Industry: Marketing</p>
+          <p>Job Role: Digital Marketing Manager</p>
+          <p>Expertise: Social Media Marketing</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Career Connect. All rights reserved.</p>
+  </footer>
+</body>
+</html>
